@@ -1,0 +1,35 @@
+.titulo {
+
+    font-size: 76px;
+
+}
+
+.robo-image {
+
+background-color: red;
+width: 50vw; /*50% do tamanho horizontal do monitor */
+height: 100vh; /* 50% da altura da tela */
+
+}
+
+.page-container {
+
+    display: flex; /* um ao lado do outro */
+
+}
+
+.login-container {
+
+background-color: green;
+width: 50vw; /*50% do tamanho horizontal do monitor */
+height: 100vh; /* 50% da altura da tela */
+
+/* Kit Sobrevivência da centralização */
+
+display: flex; /*Ativar o flex */
+flex-direction: column; /*Muda o flex para colunas */
+align-items: center; /* Centralizar horizontalmente */
+justify-content: center; /* Centralizar verticalmente */
+
+}
+
