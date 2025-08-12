@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{ /** Todos os elementos */
+
+    padding: 0px; /*Margem interna de um elemento */
+    margin: 0px; /*Margem externa de um elemento */
+    box-sizing: border-box; /*Muda a estrutura dos espaçamentos */
+    font-family: "Inter";
+
+}
+
 .titulo {
 
     font-size: 76px;
@@ -6,7 +17,11 @@
 
 .robo-image {
 
-background-color: red;
+background-image: url(../assets/imgs/Rectangle\ 1.png);
+background-size: cover;
+background-position: 0px -100px;
+
+
 width: 50vw; /*50% do tamanho horizontal do monitor */
 height: 100vh; /* 50% da altura da tela */
 
@@ -15,12 +30,11 @@ height: 100vh; /* 50% da altura da tela */
 .page-container {
 
     display: flex; /* um ao lado do outro */
-
+.,
 }
 
 .login-container {
 
-background-color: green;
 width: 50vw; /*50% do tamanho horizontal do monitor */
 height: 100vh; /* 50% da altura da tela */
 
@@ -33,3 +47,20 @@ justify-content: center; /* Centralizar verticalmente */
 
 }
 
+.classe { /* Com ponto antes*/
+
+}
+
+#id { /* Com hashtag antes */
+
+}
+
+img { /* Sem nenhum prefixo*/
+
+}
+
+.login-container img {
+
+    height: 60px;
+
+}
