@@ -12,6 +12,8 @@
 .titulo {
 
     font-size: 76px;
+    margin-bottom: 16px;
+    font-weight: 400;
 
 }
 
@@ -64,3 +66,29 @@ img { /* Sem nenhum prefixo*/
     height: 60px;
 
 }
+
+.inpt {
+
+    padding: 18px;
+    background-color: #F7F9FB;
+    width: 377px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+
+}
+
+.button {
+
+    padding: 18px;
+    font-size: 18px;
+    background-color:#1C1C1C;
+    color: #FFFFFF;
+    width: 377px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
