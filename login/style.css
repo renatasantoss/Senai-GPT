@@ -32,7 +32,7 @@ height: 100vh; /* 50% da altura da tela */
 .page-container {
 
     display: flex; /* um ao lado do outro */
-.,
+
 }
 
 .login-container {
@@ -88,7 +88,7 @@ img { /* Sem nenhum prefixo*/
     border-radius: 10px;
     border: none;
     cursor: pointer;
-
+    
 }
 
 
