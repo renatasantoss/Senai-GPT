@@ -24,6 +24,7 @@ font-family: Inter;
     flex-direction: column;
     justify-content: space-between;    
     background-color: rgb(255, 255, 255);
+    border-right: 1px solid #1C1C1C1A;
 
 }
 
@@ -47,6 +48,7 @@ font-family: Inter;
     background-position: 0px - 100px;
     width: 446px;
     height: 101px;
+    margin-top: 10vh;
 
 }
 
@@ -72,6 +74,8 @@ font-family: Inter;
     justify-content: center;
     align-items: center;
     background-color:   rgb(255, 255, 255);
+    border-top: 1px solid #1C1C1C1A;
+
 
 }
 
@@ -135,7 +139,8 @@ font-family: Inter;
     display: flex;
     justify-content:center;
     gap: 40px;
-    max-width: 1000px;
+    max-width: 80%;
+    margin-top: 20px;
 
 }
 
@@ -146,7 +151,8 @@ font-family: Inter;
     align-items: center;
     width: 280px;
     text-align: center;
-        
+    margin-right: 40px;
+    
 }
 
 .capabilities{
@@ -156,6 +162,7 @@ font-family: Inter;
     align-items: center;
     width: 280px;
     text-align: center;
+    margin-right: 40px;
 
 }
 
@@ -174,6 +181,9 @@ p{
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -213,5 +223,49 @@ p{
     font-size: 14px;
     cursor: pointer;
     transition: background-color 0.2s;
+
+}
+
+.chat-item i {
+
+    font-size: 19px;
+
+}
+
+.item-chat i{
+
+    font-size: 19px;
+
+}
+
+.examples i{
+
+    font-size: 25px;
+    margin-bottom: 16px;
+
+}
+
+.Capabilities i{
+
+    font-size: 25px;
+    margin-bottom: 16px;
+
+}
+
+.Limitations i{
+
+    font-size: 25px;
+    margin-bottom: 16px;
+
+}
+
+.input-container{
+
+    background-color: #f7f7f8;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #f7f7f8;
+    border-radius: 16px;
 
 }
