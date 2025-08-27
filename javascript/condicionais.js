@@ -27,7 +27,7 @@
 
 //     }
 
- /// Exercício 3
+/// Exercício 3
 
 //  let nota = prompt("Digite a nota do aluno");
 
@@ -42,7 +42,7 @@
 
 //     }
 
- /// Exercício 4
+/// Exercício 4
 
 //  let número = prompt("Digite um número.");
 
@@ -51,7 +51,7 @@
 //     alert ("O número é positivo.");
 
 //  } else {
-  
+
 // if (número == 0) {
 
 //     alert ("O número é zero");
@@ -63,7 +63,7 @@
 // } 
 // }
 
- /// Exercício 5
+/// Exercício 5
 
 // let idade = prompt("Digite sua idade");
 
@@ -76,7 +76,7 @@
 //     if (idade > 12 && idade <= 17) {
 
 // alert("Você é um adolecente");
-        
+
 
 // } else {
 
@@ -89,7 +89,7 @@
 // }
 // }
 
- /// Exercício 6
+/// Exercício 6
 
 // let número = prompt("Digite um número.");
 
@@ -103,25 +103,55 @@
 
 // }
 
- /// Exercício 1 - Intermediário
+/// Exercício 1 - Intermediário
 
- let número1 = parseFloat(prompt("Digite um número."));
- let número2 = parseFloat(prompt("Digite outro número."));
- let operacao = prompt("Digite a operação (+, -, *, /):");
+//  let número1 = parseFloat(prompt("Digite um número."));
+//  let número2 = parseFloat(prompt("Digite outro número."));
+//  let operacao = prompt("Digite a operação (+, -, *, /):");
 
- let resultado
+//  let resultado
 
-    if (operacao === "+") {
-        resultado = número1 + número2
-    } else if  (operacao === "-") {
-        resultado = número1 - número2
-    } else if  (operacao === "*") {
-        resultado = número1 * número2
-    } else if (operacao === "/") {
-        resultado = número1 / número2
+//     if (operacao === "+") {
+//         resultado = número1 + número2
+//     } else if  (operacao === "-") {
+//         resultado = número1 - número2
+//     } else if  (operacao === "*") {
+//         resultado = número1 * número2
+//     } else if (operacao === "/") {
+//         resultado = número1 / número2
 
-    }
+//     }
 
-    alert("Resultado: " + resultado);
+//     alert("Resultado: " + resultado);
 
- /// Exercício 2 - Intermediário
+/// Exercício 2 - Intermediário
+
+//  let valor = parseFloat(prompt("Valor da compra."));
+
+//     if (valor > 100) {
+
+//  let desconto = valor * 0.10;
+//  let valorComDesconto = valor - desconto;
+
+//     alert("Valor original: R$ " + valor.toFixed(2) + "\nDesconto de 10%: R$ " + desconto.toFixed(2) + "\nValor com desconto: R$ " + valorComDesconto.toFixed(2));
+
+//     } else {
+//     alert("Valor da compra: R$ " + valor.toFixed(2) + "\nSem desconto, valor normal.");
+// }
+
+/// Exercício 3 - Intermediário
+
+// let usuario = prompt("Insira seu usuário.");
+// let senha = prompt("Insira sua senha.");
+
+// if (usuario == "admin" && senha == "1234") {
+
+//     alert("Login bem-sucedido");
+
+// } else {
+
+//     alert("Acesso negado");
+
+// }
+
+ 
